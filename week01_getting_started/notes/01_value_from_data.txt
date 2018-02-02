@@ -1,0 +1,72 @@
+--Getting Value out of Data
+
+-actionable information: historical data + near real-time data = prediction
+ex:
+  prediction - today's forecast is cold and tomorrow's forecast calls for information
+  action - wear a jacket today and tomorrow carry an umbrella
+
+--reasons for sudden interest in data science?
+• big data - we now have the ability to gather massive amounts of info from user of consumer technologies
+• computation is scalable and major operations can be performed with that data
+
+--how much data is big data?
+1000 MEGABYTES = 1GB
+1000 GIGABYTES = 1TB
+1000 TERABYTES = 1PB
+1000 PETABYTES = 1EB
+1000 EXABYTES = 1 ZETTABYTE
+
+-prediction of growth of data being used.
+in 2009 0.8 Zb was in use, forecasting shows by 2020 35.2 Zb will be in use. in 11 years thats growth of a factor of 44.
+
+--Why Python for Data science
+
+• List traits of modern data scientists
+  - have a passion for data
+  - relate problems to analytics
+  - care about engineering solutions
+  - exhibit curiosity
+  - communicate with teammates
+
+• Explain why Python is a good programming language for data science
+  - easy to read and learn
+  - vibrant community
+  - growing and evolving set of libraries
+    * data management
+    * analytical processing
+    * visualization
+  - applicable to steps in data science process
+  - notebooks
+
+• Recite four major Python modules that are useful for data analysis
+  - pandas
+  - numpy
+  - jupyter notebooks
+  - matplotlib
+
+--Case Study: Soccer Data Analysis
+
+• talk about the "big picture" of data science through soccer case Study
+  - ask oneself: what insights do i expect to gain from this?
+  - for this scenario, a better understanding and insights on:
+      • player strengths
+      • enhancing performance
+      • critical attributes for a player's performance
+  - actions that can then be taken are the design of programs to improve weak areas
+
+*** Basic Steps in a Data Science Project ***
+  • Acquire - import raw dataset into your analytics platform
+  • Prepare - explore and visualize, perform data cleaning
+  • Analyze - feature selection, model selection, analyze the results
+  • Report - present findings
+  • Act - use findings to implement processes
+
+• generate stats about a soccer data scientists
+
+• summarize how data cleaning and correlations were applied to an existing dataset
+
+• recite the data visualization techniques employed in the study
+
+• explain how clustering similar groups and plotting clusters helped the case study
+
+• recall what was used to draw conclusion based on data analysis
