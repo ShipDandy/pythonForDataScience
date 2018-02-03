@@ -1,0 +1,182 @@
+--How Does Data Science Happen--
+[GOALS]
+• List some of the dimensions of modern data science
+  - Data Engineering
+    ° Acquire
+    ° Prepare
+  - Computational Data Science
+    ° Analyze
+    ° Report
+    ° Act
+
+• Identify why analyzing these dimensions are important for us as data scientists
+
+
+--Asking the Right Question--
+[GOALS]
+• Describe the ingredients to form a data science problem
+  - define the problem
+  - assess the situation with respect to the problem you have defined, so analyze
+    ° risks
+    ° benefits
+    ° contingencies
+    ° regulations
+    ° resources
+    ° requirements
+  - Define Goals
+    ° objectives
+    ° criteria
+
+• List some questions others asked to get value out of their big data
+  - how can sales numbers and customer service outreach evaluate product release
+  - what can sensor data tell us about machine failure
+  - how can we take customer data and marketing data to make more efficient marketing
+
+• Formulate the right questions to guide your data science
+
+
+--Steps in Data Science--
+[GOALS]
+• Identify the steps in the data science process
+  - Step 1: Acquire Data
+    ° Identify data sets
+    ° Retrieve data
+    ° Query data
+  - Step 2: Prepare Data
+    ° Explore
+      * understand nature of data
+      * preliminary analysis
+    ° Pre-process
+      * clean
+      * integrate
+      * package
+  - Step 3: Analyze Data
+    ° Select analytical techniques
+    ° Build models
+  - Step 4: Report (communicate results)
+    ° can include visualizations
+    ° generate reports of findings and explanations
+  - Step 5: Act
+    ° apply results
+  - Iterative Process
+    ° re-run different steps as needed
+
+• Understand what each step involves
+
+
+--Step 1: Acquiring Data--
+[GOALS]
+• List techniques and technologies to access and retrieve the data needed
+  ° traditional relational databases using structured query languages (SQL)
+  ° text files and spreadsheets using scripting languages like python, r, scala
+  ° remote data via the internet stored in JSON or XML using web services like SOAP, REST, and WebSocket APIs
+  ° NoSQL storage like MongoDB via APIs or other web services
+
+• Describe an example scenario that accesses data from a variety of sources using different technologies
+  ° wildfire prediction
+    - Historical weather data via relational database
+    - Current weather via WebSockets for real-time conditions
+    - Real-time tweets/social media posts retireved via REST APIs
+
+{Where's the data?}
+• Identify suitable data
+• Acquire all available data
+
+
+--Step 2: Exploring Data---
+[GOALS]
+• Explain the importance of exploring data
+  - need to understand general characteristics of data collected so it may be used effectively
+    ° correlations
+      * correlation graphs - explore dependancies of variables in data
+    ° general trends
+      * general trend graphs - show how data is progressing over time
+    ° outliers
+      * outlier graphs - show distance of data points from other points which can help for errors or find rare events
+
+• Identify methods to perform preliminary analysis of data
+  - Summary statistics provide numerical formats to describe data
+    ° mean - location of specific value, average value in dataset
+    ° median - location of specific value, middle value in dataset
+    ° mode - value that occurs most frequently in a dataset
+    ° range/standard deviation - measures of spread in data
+
+  - Visualization of Data
+    ° Heat Maps - quick visualization of intensity over an area
+    ° Histograms - show distribution of data
+    ° Boxplots - also show data distribution
+    ° Line graphs - useful for seeing how values change over time
+    ° Scatter plots - show correlation between two variables
+
+[Takeaway] exploring data gives a better understanding of the complexity of the data collected and help guide the rest of the process
+
+--Step 2B: Pre-processing Data--
+[GOALS]
+• Identify problems with real-world data
+  - Inconsistent values
+  - Duplicate records
+  - Missing values
+  - Invalid data
+  - Outliers
+
+• Describe what is needed to transform raw data into data that can be used for analysis
+  - Cleaning Data
+    ° Remove data with missing values
+    ° Merge duplicate records
+    ° Generate best estimate for invalid values
+    ° Remove outliers
+    ° Successfully handling data corrections requires domain knowledge
+
+  - Shaping Data
+    ° Data Munging
+      · Dimensionality Reduction: when dataset has a large number of dimensions choosing those most applicable
+      · Data Manipulation: formatting and classifying raw data to usable types
+      · Transformation: used to reduce noise and variability, like aggregation
+      · Feature Selection: removing redundant features, combining features, or adding features
+      · Scaling: changing range of values to avoid large values from dominating results unfairly
+
+
+--Step 3: Analyze Data--
+[GOALS]
+• Describe what is involved in applying an analysis technique to data
+  - Build Model
+    ° Input Data -> Analysis Technique -> Model -> Model Output
+  - Steps in modeling
+    1. Select technique
+    2. Build model
+    3. Validate model
+  - Evaluation of Results
+    ° Classification and Regression: Predicted Value vs. Correct Value
+    ° Clustering: Do the groups make sense given the sample, are they helpful?
+    ° Association Analysis and Graph Analytics: Investigate -> Validate, did your prediction actually occur
+  - Determine Next Steps
+    ° Repeat Analysis?
+    ° Take a deeper look? Add more variables?
+    ° Act on results?
+
+• List three basic analysis techniques
+  - Classification: goal is to predict category of input data, ex. tumor is either malignant or benign
+  - Regression: goal is to predict numeric value, ex. predict price of stock over time
+  - Clustering: organize similar items into groups, ex. organizing customer base in groups like adults/seniors/teens
+  - Association Analysis: find rules to capture associations between items, ex. a user with product X is likely to also use product Y
+  - Graph Analytics: use graph structures to find connections between entities, ex. exploring spread of disease, optimization of data network
+
+
+--Step 4: Reporting Insights--
+[GOALS]
+• Determine what to present in reporting your findings
+  - "What is my punchline?": what are the main results
+  - "What value do these results provide?"
+  - "How can this model add to the application?"
+  - Answers to these questions need to be included in the report
+  - Not all results may be positive or skew with what is desired but if true still need to be included
+
+• Identify techniques to communicate your results
+  - Visualizations
+  - Data tables
+
+--Step 5: Turning Insights into Action--
+[GOALS]
+• Explain what turning insights into action means
+
+• Connect your results with your business question
